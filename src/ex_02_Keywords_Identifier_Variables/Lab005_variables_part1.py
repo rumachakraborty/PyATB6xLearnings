@@ -15,3 +15,14 @@ print()
 # 1234=ruma
 rum89="rumas"
 print(rum89)
+
+#Dynamic typed language
+
+pi = 3.14
+name = "Ruma"
+name = "Ruma"
+name = "Prajwal"
+name = "Ruma"
+name = "Prajwal"
+name = "sunny chakraborty"
+print(name)
