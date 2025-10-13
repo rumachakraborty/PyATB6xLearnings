@@ -3,7 +3,7 @@ _ruma = "amit"
 _abc = 23
 pi = 3.14
 name = "Ruma"
-isMale = True
+isMale = Truex
 
 # Type function
 print(type(_ruma)) # <class 'str'>

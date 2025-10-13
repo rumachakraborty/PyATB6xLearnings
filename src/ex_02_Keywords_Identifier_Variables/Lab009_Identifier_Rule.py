@@ -1,0 +1,2 @@
+long_var_name_is_created_here_1_2_3_4 = "Hello"
+print(long_var_name_is_created_here_1_2_3_4)

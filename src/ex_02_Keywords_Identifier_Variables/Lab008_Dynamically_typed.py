@@ -1,6 +1,8 @@
-#Dynamically typed
+# Dynamically typed
 
-age=98
+age = 98
 print(type(age))
-age="ruma"
+age = "Ruma"
+print(type(age))
+age = True
 print(type(age))
