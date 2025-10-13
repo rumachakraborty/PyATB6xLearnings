@@ -1,0 +1,1 @@
+print("Amit", "Teja", "Tushar","Ruma", "sunny", "bunny")
