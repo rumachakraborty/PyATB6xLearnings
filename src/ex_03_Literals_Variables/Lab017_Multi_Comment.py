@@ -6,6 +6,10 @@ age = 65
 print(type(age))
 
 """
+"""
+3 comma is using for 
+multi comments
+"""
 
 #This is single comment
 print("Hi Hello")
