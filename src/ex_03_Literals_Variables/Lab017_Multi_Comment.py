@@ -12,4 +12,5 @@ multi comments
 """
 
 #This is single comment
+# This single comment acived by ctr+/
 print("Hi Hello")
