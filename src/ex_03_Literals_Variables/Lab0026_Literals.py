@@ -13,7 +13,8 @@ d = 0x12c
 pi = 3.14  # float
 
 # String , str
-name = "Pramod"
+name = "Ruma"
+print(name)
 
 is_pramod_married = True  # bool
 
