@@ -14,7 +14,7 @@ num3=max
 
 """
 
-if num1>num2 and num1>num3:
+if num1>=num2 and num1>=num3:
     print("max" ,num1)
 elif num2>num1 and num2>num3:
     print("max is" ,num2)
