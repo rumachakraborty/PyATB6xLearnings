@@ -1,6 +1,5 @@
-a=19
-if a==21:
-    print("yes")
+a = 19
+if a == 10:
+    print("Hello World")
 else:
-    print("no")
-    
+    print("Not Hello")

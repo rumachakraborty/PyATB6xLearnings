@@ -1,9 +1,14 @@
-# Write a program to check if a number entered by the user is greater than 100.
-# Ask the user to enter a number
-number = float(input("Enter a number: "))
+# In automation, you often compare expected and actual outputs.
+# Write code to check if a test case passed or failed.
+#
+# expected_title = "Dashboard"
+# actual_title = "Dashboard "
 
-# Check if the number is greater than 100
-if number > 100:
-    print("The number is greater than 100.")
+expected_title = "Dashboard"
+# actual_title = "dashboard "
+actual_title = "Dashboard "
+
+if expected_title.strip().lower() == actual_title.strip().lower():
+    print("Passed API Request")
 else:
-    print("The number is not greater than 100.")
+    print("Failed API Request")

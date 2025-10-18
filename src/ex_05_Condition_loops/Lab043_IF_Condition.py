@@ -1,44 +1,33 @@
-# Write a program to take user age
-# and let him know he can go to club
-# Logic building activity
-# step1
-# i/p->age,int
-# o/o->string(result)->can go to club
-# step2->rough logic
+# Write a program to take a user age and
+# let him know if he can go the club.
+# 21
+
+# Logic Building Formula
+
+# Step 1
+# i/p - age, int
+# o / p - String (reuslt -> Can go to club or not.
+
+# Step 2. Rough logic (  brute force)
 """
-age>21->print can go
-age<21->print cannot go
+age  > 21 -> print can go
+age < 21 -> print can't go
 
 """
-#step3
-age=int(input("Enter age\n").strip())
-if age>=21:
-    print("yes","can go to club")
+
+# Step 3. write the logic
+age = int(input("Enter the age\n"))
+
+if age >= 21:
+    print("Yes, can go club")
 else:
-    print("no","Not you can not go to club")
-#Step4. Check for the edge cases
-#we should consider edge case such as:
-#Negative ages or extremly high values->program will break
-#Non-numeric input->ABC-> not allowed
-#age is valid >130
-#step 5 :
-try:
-    age_input = input("Enter your age: ").strip()
-    if not age_input:
-        print("Input cannot be empty.")
-    else:
-        age = int(age_input)
-        if age < 0:
-            print("Age cannot be negative.")
-        elif age > 130:
-            print("Please enter a realistic age (below 130).")
-        elif age >= 21:
-            print("Yes, you can go to the club.")
-        else:
-            print("No, you cannot go to the club.")
-except ValueError:
-    print("Invalid input. Please enter a valid number.")
+    print("No, can't go club")
 
+# Step 4.  Check for the edge cases.
+# We should consider edge cases such as:
+# Negative ages or extremely high values -> program will break.
+# Non-numeric input - ABC
+# Age which is valid. > 130
 
-
-
+# Step 5.  Optimize the code.
+# Handle all the edges.

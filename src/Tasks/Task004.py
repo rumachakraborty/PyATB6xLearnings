@@ -1,14 +1,14 @@
-# Write a Python program to calculate the area of a triangle using the formula#Area=1/2×base×height
-# base = 10
+# Q - You receive an API response code from your test script.
+# Write an if-else block to check whether the response is successful (status code 200) or not.
+#
+# I/P response = 404 , O/P ❌ Failed API Request
+# I/P response = 200 , O/P ✅ Passed API Request
 
-# height = 5
-# Given values
-# base = 10
-# height = 5
+# Input: API response code
+response = int(input("Enter API Response Code: "))
 
-# Calculate area
-area = 0.5 * base * height
-
-# Print the result
-print("The area of the triangle is:", area)
-#Another way
+# Check if the response is successful
+if response == 200:
+    print("✅ Passed API Request")
+else:
+    print("❌ Failed API Request")

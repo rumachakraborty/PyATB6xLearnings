@@ -1,14 +1,12 @@
-# Q - You receive an API response code from your test script.
-# Write an if-else block to check whether the response is successful (status code 200) or not.
+# You want to check whether a web page loads within 3 seconds (performance test condition).
 #
-# I/P response = 404 , O/P ❌ Failed API Request
-# I/P response = 200 , O/P ✅ Passed API Request
+# load_time = 4.2
+# ⚠️ Page load too slow: 4.2 seconds
 
-API_response =  int(input("Enter I/P response: "))
+load_time = 4.2
 
-if API_response == 404:
-    print("❌ Failed API Request")
-elif API_response == 200:
-    print("✅ Passed API Request")
+# Performance threshold (3 seconds)
+if load_time <= 3:
+    print(f"✅ Page loaded successfully in {load_time} seconds")
 else:
-    print("no response")
+    print(f"⚠️ Page load too slow: {load_time} seconds")
