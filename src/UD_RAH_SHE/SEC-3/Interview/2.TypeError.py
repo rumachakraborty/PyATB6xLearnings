@@ -1,0 +1,1 @@
+'Hello' + str(7)  # Output: 'Hello7'

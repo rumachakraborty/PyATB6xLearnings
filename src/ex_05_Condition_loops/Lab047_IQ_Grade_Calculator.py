@@ -28,7 +28,7 @@ else:
     elif score >= 60 and score <= 69:
         print("Your grade is D")
     else:
-        print("Your grade is F")
+        print("Your grade is", "F")
 
 
 # float, abc - try catch.

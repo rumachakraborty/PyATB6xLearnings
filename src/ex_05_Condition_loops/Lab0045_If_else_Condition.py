@@ -6,8 +6,8 @@
 # 2. o/ p ->  int 1 which ever is grater max number it will return.
 # 31.4 or 45.34 - float
 
-num1 = float(input("Enter a number: "))
-num2 = float(input("Enter another number: "))
+num1 = float(input("Enter a num1: "))
+num2 = float(input("Enter another num2: "))
 
 # if num1 > 0 and num2 > 0:
 #     print("Number should be positive")
