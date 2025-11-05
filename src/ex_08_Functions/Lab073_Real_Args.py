@@ -7,3 +7,4 @@ def make_pizza(*toppings):
 pramod = make_pizza("cheese","corn")
 yoga = make_pizza("cheese","corn","paneer","capsicm")
 vinay = make_pizza("tomato")
+ruma = make_pizza()
