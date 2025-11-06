@@ -3,4 +3,6 @@ print(time.time())
 print(time.sleep(4))
 print(time.localtime().tm_hour)
 print(time.localtime().tm_min)
-print(time.sleep(4))  # halt for 4 sec
+
+
+time.sleep(4) # halt the program for the 4 seconds
