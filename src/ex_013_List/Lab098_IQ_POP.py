@@ -49,5 +49,7 @@ matrix = [[1,2,3], [4,5,6], [7,8,9]]
 print(matrix[1][2])
 
 # del statement - Deletes an element by index or the whole list.
+#DELETE Will not return element but pop will return element
+#remove is function and delete is keyword
 del numbers[0]
 print(numbers)
