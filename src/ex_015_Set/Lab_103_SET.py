@@ -1,16 +1,16 @@
-# a = {1, 2, 3}
-# b = {3, 4, 5}
+a = {1, 2, 3}
+b = {3, 4, 5}
 # print(a | b)            # {1, 2, 3, 4, 5}
 # print(a.union(b))       # same result
 #
+#common value will take for intersection
+print(a & b)            # {3}
+print(a.intersection(b))
 #
-# print(a & b)            # {3}
-# print(a.intersection(b))
+# print(a-b)  // it will keep which in a but not in b
+# print(b-a) // it will keep which in b but not in a
 #
-# print(a-b)
-# print(b-a)
-#
-# print(a ^ b)
+# print(a ^ b) // symetric difference//common will remove
 
 set1 = {1, 2, 3}
 set2 = {4, 5, 6}
